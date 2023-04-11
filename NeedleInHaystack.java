@@ -1,4 +1,4 @@
-import java.util.String;
+
 public class NeedleInHaystack{
     public int strStr(String haystack, String needle) {
         // split the string into char arrays

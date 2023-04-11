@@ -7,18 +7,18 @@ Given the integer n, return the number of complete rows of the staircase you wil
 */
 
 class ArrangeCoins {
-    public int arrangeCoins(int n:int):int {
+    public int arrangeCoins(int n) {
         //Declare a counter variable to count the number of steps
-        int count:int = 0;
+        int count= 0;
         
         //Start a for loop with an infinite loop condition
-        for(int i:int = 1 ; i:int > 0 ;i:int++){
+        for(int i = 1 ; i > 0 ;i++){
             //Check if the number of coins is greater than the current step number
-            if(n:int>=i:int){
+            if(n>=i){
                 //If yes, then increment the counter
-                count:int++;
+                count++;
                 //Reduce the number of coins by the current step number
-                n:int-=i:int;
+                n-=i;
             }
             else{
                 //If the number of coins is less than the current step number, then break out of the loop
@@ -26,6 +26,6 @@ class ArrangeCoins {
             }
         }
         //Return the counter
-        return count:int;
+        return count;
     }
 }
