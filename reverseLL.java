@@ -15,11 +15,16 @@ class reverseLL {
           
     ListNode head2 = null;
     while (head != null) {
+        //1. Store the next node in a temp variable
         ListNode next = head.next;
+        //2. Point the current node to the previous node
         head.next = head2;
+        //3. Set this node as the previous node
         head2 = head;
+        //4. Set the next node as the current node
         head = next;
     }
+    //5. Return the head of the reversed LL
     return head2;
     }
 }
