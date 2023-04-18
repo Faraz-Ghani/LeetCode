@@ -21,6 +21,7 @@ public class FlippingAnImage {
                     b--; // decrement the last index
                 }
             }
+            
 
             for(int i =0 ;i<image.length;i++){ // for each row
                 for(int j=0;j<image[i].length;j++){ // for each column
@@ -35,3 +36,4 @@ public class FlippingAnImage {
             return image; // return the image
         }
     }
+    
