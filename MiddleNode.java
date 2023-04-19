@@ -11,7 +11,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class MiddleNode {
     public ListNode middleNode(ListNode head) {
         // Get the length of the list
         int i=0;

@@ -7,11 +7,9 @@
 class BuySellStock{
     public int maxProfit(int[] prices) {
         int min=prices[0],max=0,currentprofit;
-        int j=0;
         for(int i =0 ;i <prices.length;i++){
             if(prices[i]<min){
                 min=prices[i];
-                j=i;
             }
             currentprofit=prices[i]-min;
             if(currentprofit>max){
