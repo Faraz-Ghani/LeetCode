@@ -21,7 +21,7 @@ Return the number that I picked.
  * int guess(int num);
  */
 
- public class Solution extends GuessGame {
+ public class Guessgame extends GuessGame {
     public int guessNumber(int n) {
         int first=1,last=n; //initialize the first and last elements
 
@@ -39,4 +39,5 @@ Return the number that I picked.
         }
         return first; //return the first element
         }
+        
     }
