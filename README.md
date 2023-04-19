@@ -4,11 +4,11 @@
 <div id="badges" align="center">
   
 [![LeetCode](https://img.shields.io/badge/website-LeetCode-inactive)](https://leetcode.com/)
-[![GitHub last commit](https://img.shields.io/github/last-commit/QuantumFluxx/LeetCode_solutions.svg)](https://github.com/QuantumFluxx/LeetCode_solutions) 
-[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/QuantumFluxx/LeetCode_solutions.svg)](https://github.com/QuantumFluxx/LeetCode_solutions) 
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/QuantumFluxx/LeetCode_solutions.svg)](https://github.com/QuantumFluxx/LeetCode_solutions)
-![ViewCount](https://views.whatilearened.today/views/github/QuantumFluxx/LeetCode_solutions.svg?cache=remove)
-![GitHub top language](https://img.shields.io/github/languages/top/QuantumFluxx/LeetCode_solutions.svg?style=flat)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Faraz-Ghani/LeetCode.svg)](https://github.com/Faraz-Ghani/LeetCode) 
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/Faraz-Ghani/LeetCode.svg)](https://github.com/Faraz-Ghani/LeetCode) 
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Faraz-Ghani/LeetCode.svg)](https://github.com/Faraz-Ghani/LeetCode)
+![ViewCount](https://views.whatilearened.today/views/github/Faraz-Ghani/LeetCode.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/Faraz-Ghani/LeetCode.svg?style=flat)
   
 </div>
 
