@@ -10,18 +10,24 @@
 import java.util.Arrays;
 
 public class MergeSortedArray {
-        public void merge(int[] nums1, int m, int[] nums2, int n) {
-            int x =0;
-            for(int i=0;i<m;i++,x++){
-                nums1[i]=nums1[i];
-            }
-            while(x<m+n){
-                nums1[x]=nums2[x-m];
-                x++;
-            }
-            Arrays.sort(nums1);
-           
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        // Declare and initialize x to 0
+        int x =0;
+        // Iterate through nums1 until m
+        for(int i=0;i<m;i++,x++){
+            // Set each element in nums1 to itself
+            nums1[i]=nums1[i];
         }
+        // Iterate through nums2 until n
+        while(x<m+n){
+            // Set each element in nums1 to the corresponding element in nums2
+            nums1[x]=nums2[x-m];
+            // Increment x
+            x++;
+        }
+        // Sort nums1
+        Arrays.sort(nums1);
+    }
     public static void main(String[] args) {
         MergeSortedArray m = new MergeSortedArray();
         int[] nums1 = {1,2,3,0,0,0};

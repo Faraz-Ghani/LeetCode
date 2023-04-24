@@ -2,21 +2,21 @@
 
 class ConsecutiveOnes {
     public int findMaxConsecutiveOnes(int[] nums) {
-        int count=0,consecutive=0;
-        for(int i=0 ;i<nums.length;i++){
+        int count=0,consecutive=0; //Declaring two variables to store the count of 1s and the maximum count of 1s
+        for(int i=0 ;i<nums.length;i++){ //Iterating through the array
             
-            if(nums[i]==1){
-                count++;
+            if(nums[i]==1){ //If the current number is 1
+                count++; //Increment the count
             }
-            else{
-                if(count>consecutive){
-                    consecutive=count;
+            else{ //If the current number is 0
+                if(count>consecutive){ //If the count of 1s is greater than the maximum count
+                    consecutive=count; //Update the maximum count
                 }
-                count=0;
+                count=0; //Reset the count to 0
             }
         }
-        if(count>consecutive){
-                    consecutive=count;
+        if(count>consecutive){ //If the count of 1s is greater than the maximum count
+                    consecutive=count; //Update the maximum count
                 }
         return consecutive;
     }

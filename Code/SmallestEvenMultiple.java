@@ -2,11 +2,11 @@
 
 class smallestEvenMultiple{
 public int SmallestEvenMultiple(int n) {
-    int a=1,output=-1;
-    while(output%2!=0 || output%n!=0 ){
-        output=n*a;
-        a++;
+    int a=1,output=-1;  // Initialize variables
+    while(output%2!=0 || output%n!=0 ){  // Loop until output is even and divisible by n
+        output=n*a;  // Calculate output
+        a++;  // Increment a
     }
-    return output;
+    return output;  // Return output
 }
 }

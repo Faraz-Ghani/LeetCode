@@ -9,15 +9,15 @@
 
 public class FinalValueAfterOperations {
     public int finalValueAfterOperations(String[] operations) {
-        int n=0;
-        for(String i : operations){
-            if(i.charAt(1)=='-'){
-                n--;
+        int n=0; //set n to 0
+        for(String i : operations){ //iterate through the operations
+            if(i.charAt(1)=='-'){ //if the second character is a -
+                n--; //subtract 1 from n
             }
-            else{
-                n++;
+            else{ //if the second character is a +
+                n++; //add 1 to n
             }
         }
-        return n;
+        return n; //return n
     }
 }

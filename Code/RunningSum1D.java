@@ -5,9 +5,12 @@
  
 public class RunningSum1D {
     public int[] runningSum(int[] nums) {
+        // loop through the array
         for(int i=1;i<nums.length;i++){
+            // add the current value to the previous value
             nums[i]+=nums[i-1];
         }
+        // return the array
         return nums;
     }   
 }

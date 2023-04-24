@@ -9,19 +9,19 @@
  
 public class MatchesInTournament {
     public int numberOfMatches(int n) {
-        int count=0;
-        while(n!=1){
-            if(n%2==0){
-                n=n/2;
-                count+=n;
+        int count=0; // to count the matches
+        while(n!=1){ // loop till n becomes 1
+            if(n%2==0){ // if n is even
+                n=n/2; // n is equal to n/2
+                count+=n; // add n to count
             }
             else{
-                n--;
-                n=n/2;
-                count+=n;
-                n++;
+                n--; // decrement n by 1
+                n=n/2; // n is equal to n/2
+                count+=n; // add n to count
+                n++; // increment n by 1
             }
         }
-        return count;
+        return count; // return count
     }    
 }

@@ -5,7 +5,7 @@
 // Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
 public class JewelsAndStone {
-    public int numJewelsInStones(String jewels, String stones) {
+    public int numJewelsInStones(String jewels, String stones) { //START_CODE
         char[] arr1 = jewels.toCharArray(); //converts the string to char array
         char[] arr2 = stones.toCharArray(); //converts the string to char array
         int num=0;
