@@ -14,4 +14,4 @@
 
 This repository contains solutions to LeetCode practice problems with Java.
 
-My profile: https://leetcode.com/Faraz-Ghani/
+My profile: leetcode.com/Faraz-Ghani/
